@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Noto+Sans:wght@400;700&family=Playfair+Display&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: light;
+  line-height: 1.5;
+}
+
+.banner {
+  padding: 0;
+  background: url(https://source.unsplash.com/random) no-repeat center;
+  background-size: cover;
+  height: 450px;
+  margin: 0 auto;
+  position: relative;
+  align-items: center;
+}
+
+.header {
+  color:  white;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+  color:  white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.banner .header > p {
+  color: rgba(150,150,150);
+  font-size: 32px;
+  opacity: 0.7;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+  color: grey;
+}
+
+a {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 32px;
+  text-decoration: none;
+  color: rgba(150,150,150);
+  font-weight: bold;
+  background-color: rgba(158, 222, 115, 0.2);
+}
+
+a:hover {
+  background-color: rgba(158, 222, 115, 1);
+}
+
+.card-white {
+  margin: 8px 48px;
+  padding: 0px, 16px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+
